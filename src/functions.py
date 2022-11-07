@@ -16,7 +16,31 @@ def multiplyBy(x):
         return x*n
     return tmp
 
+# defaults
+def find_volume(lenght, width, depth=1):
+    return lenght * width * depth
+
+# multiple return
+def multi_result():
+    return 0, False, 'bad'
+
+# HOF
+def increment(x):
+    return x + 1
+
+def high_ord_fun(x, fun):
+    return x + fun(x)
+
 say_hello()
 say_hello_custom('Juan')
 say_hello_more('Juan', 'Pepe', 'Zara')
 print(multiplyBy(3)(5))
+print(find_volume(2,3))
+
+num, flag, txt = multi_result()
+print(num)
+print(flag)
+print(txt)
+
+print(high_ord_fun(2, increment))
+print(high_ord_fun(2, lambda x: x + 1))
