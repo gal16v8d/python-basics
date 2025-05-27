@@ -1,11 +1,11 @@
-text = 'She knows python'
+text = "She knows python"
 # get some pos
 print(text[0])
 # get string size
 print(len(text))
 # get position from last pos
 print(text[-1])
-# slicing 
+# slicing
 # (similar to java substring), extract from 0 to 3
 print(text[0:3])
 # if omitted first then assumes zero
@@ -21,7 +21,7 @@ print(text.upper())
 print(text.lower())
 print(text.swapcase())
 # count how many of certain char in the string
-print(text.count('h'))
+print(text.count("h"))
 
 # error when pos is out of range
 print(text[999])

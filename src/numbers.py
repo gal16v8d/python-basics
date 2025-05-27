@@ -5,7 +5,7 @@ y = 1.1 + 2.2
 print(y)
 
 # should compare using tolerance diff
-print(abs(x-y) < 0.0001)
+print(abs(x - y) < 0.0001)
 
 # numeric operands
 # sum
@@ -21,7 +21,7 @@ print(10 % 2)
 # int div
 print(10 // 3)
 # pow
-print(2 ** 3)
+print(2**3)
 # op order (left to right), then
 # P - paren
 # E - exp/pow
@@ -29,4 +29,4 @@ print(2 ** 3)
 # D - div
 # A - sum/add
 # S - subs/dif
-print(2 ** 3 + 3 - 7 / 1 // 4)
+print(2**3 + 3 - 7 / 1 // 4)
